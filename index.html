@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn to Code</title>
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="mainflex">
+        <div id="left">
+            <div>
+                <h1>Learn to code by watching others</h1>
+            </div>
+            <div>
+                <p>See how experienced developers solve problems in real-time. <br>Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+            </div>
+        </div>
+        <div id="right">
+            <div class="rt"><span id="free">Try it free 7days</span> then $20/mo. thereafter </div>
+            <div class="rb">
+                <form action="index.html" id="form">
+                    <input type="text" name="firstname" id="firstname" placeholder="First Name" required oninvalid="this.setCustomValidity('First Name cannot be empty')">
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" required oninvalid="this.setCustomValidity('Last Name cannot be empty')">
+                    <input type="email" id="mail" name="mail" placeholder="Email Address" required oninvalid="this.setCustomValidity('Looks like this is not an email')">
+                    <input type="password" name="password" id="password" placeholder="Password" required oninvalid="this.setCustomValidity('Password cannot be empty')">
+                    <input type="submit" value="CLAIM YOUR FREE TRIAL" id="button">
+                </form>
+
+                <footer>
+                    <p>By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
